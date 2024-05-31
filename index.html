@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemig Educations</title>
+    <!-----------css link-------------->
+    <link rel="stylesheet" href="style.css">
+    <!------------bootstrap bağlantı-------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<!------icons----->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <!--------header alanı------------->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Udemig.png" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--* Fontawesome dan icon eklendi  -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- m-lg-auto margin değeri lg ekranda auto olsun  -->
+                    <ul class="navbar-nav m-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servisler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Müşteriler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!----banner alanı -------->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <!-- sütun-1 -->
+                <div class="col-md-6">
+                    <p class="title">En iyi yazılım akademisi</p>
+                    <p>
+                        Sizde piyasanın en iyi yazılım akademisine katılarak kaliteli bir
+                        eğtim alabilirsiniz.
+                    </p>
+                    <a href="#"><img src="./images/play.png" class="play-btn" alt="play-img" />
+                        Bizi İzleyin !
+                    </a>
+                </div>
+                <!-- sütun-2 -->
+                <div class="col-md-6 text-center">
+                    <img src="./images/home2.png" class="bottom-img" alt="banner-img" />
+                </div>
+            </div>
+        </div>
+        <img src="./images/wave1.png" class="wave" alt="" />
+    </section>
+    <!----servis alanı -------->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center title">Neler Yapıyoruz ?</h1>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="./images/service1.png" class="service-img" alt="service-img">
+                    <h4>HIZLA GELİŞEN TOPLULUK</h4>
+                    <p>Piyasanın en aktif şirketi olarak hızla büyüyoruz.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="./images/service2.png" class="service-img" alt="service-img">
+                    <h4>ONLINE EĞİTİM</h4>
+                    <p>Klasik ve sıkıcı eğitim modelinin dışına çıkıyoruz.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="./images/service3.png" class="service-img" alt="service-img">
+                    <h4>GÜNCEL İÇERİKLER</h4>
+                    <p>Piyasayı takip ederek en iyi şekilde en günceli yakalıyoruz.</p>
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button type="button" class="btn btn-primary">Tüm Servisler</button>
+            </div>
+        </div>
+    </section>
+    <!----about us-------->
+    <section id="about-us">
+        <div class="container">
+          <h1 class="text-center title">Neden Bizi Seçmelisiniz</h1>
+          <div class="row">
+            <div class="col-md-6 about-us">
+              <p class="about-title">Neden en iyiyiz</p>
+              <ul>
+                <li>Dürüstlükle İş Yapmaya İnanıyoruz</li>
+                <li>Dürüst İş İlkeleriyle Öne Çıkıyoruz</li>
+                <li>Dürüstlük Üzerine Kurulu İlişkiler</li>
+                <li>Dürüst Geribildirim Kültürü</li>
+                <li>Dürüstlük Temelli Eğitim Metodolojileri</li>
+                <li>Güven ve Dürüstlük İle Dolu Bir Öğrenme Ortamı</li>
+              </ul>
+            </div>
+            <div class="col-md-6 about-us">
+              <img src="./images/network.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="customers">
+        <div class="container">
+          <h1 class="text-center title">Öğrencilerimiz Ne Diyor ?</h1>
+          <div class="row">
+            <div class="col-md-4 customers">
+              <p>Piyasanın aktif en iyi kurumu</p>
+              <img src="./images/user1.png" alt="user-img" />
+              <p class="user-details">
+                <b>Nurbanu</b> <br />
+                Web Developer at XYZ Company
+              </p>
+            </div>
+            <div class="col-md-4 customers">
+              <p>Harika bir eğitmen kadrosu ile başarı kaçınılmaz</p>
+              <img src="./images/user2.png" alt="user-img" />
+              <p class="user-details">
+                <b>Bekir Asım</b> <br />
+                Mobile Deeveloper at ABC
+              </p>
+            </div>
+            <div class="col-md-4 customers">
+              <p>Bu eğitim ile hayatınızı değiştin</p>
+              <img src="./images/user3.png" alt="user-img" />
+              <p class="user-details">
+                <b>Birkan</b> <br />
+                Backend Developer at DRF
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------sosyal medya  -->
+      <section id="social-media">
+        <div class="container text-center">
+          <p>Bizi Sosyal Medyadan Takip Edin !!</p>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="./images/facebook-icon.png" alt="social-icons"
+            /></a>
+            <a href="#"
+              ><img src="./images/instagram-icon.png" alt="social-icons"
+            /></a>
+            <a href="#"
+              ><img src="./images/twitter-icon.png" alt="social-icons"
+            /></a>
+            <a href="#"
+              ><img src="./images/whatsapp-icon.png" alt="social-icons"
+            /></a>
+            <a href="#"
+              ><img src="./images/snapchat-icon.png" alt="social-icons"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!----Footer -->
+      <section id="footer">
+        <img src="./images/wave2.png" class="footer-img" alt="footer-img" />
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-box">
+              <img src="./images/Udemig.png" alt="logo" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                veritatis, incidunt consequatur sapiente alias doloremque facilis,
+                nobis necessitatibus eius, accusamus nisi dicta fugiat delectus
+                tempore totam voluptatum velit eaque hic!
+              </p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>Bize Ulaşın</b></p>
+              <p><i class="fa-solid fa-map-pin icons"></i>İstanbul</p>
+              <p><i class="fa-solid fa-phone icons"></i> +905559992211</p>
+              <p><i class="fa-regular fa-envelope icons"></i> xyz@gmail.com</p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>İletişim</b></p>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="mailinizi giriniz"
+              />
+              <button type="button" class="btn btn-primary">Gönder</button>
+            </div>
+          </div>
+          <hr />
+          <p class="copright">Udemig Tüm hakları saklıdır.</p>
+        </div>
+      </section>
+     
+
+    <!----bootstrap js link-------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

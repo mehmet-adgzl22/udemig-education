@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+ /*------ Navbar Alanı----*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px;
+}
+ /*------ Banner Alanı----*/
+#banner {
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.title::before {
+    content: "";
+    background-color: #7b1798;
+    width: 200px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: "";
+    background-color: #7b1798;
+    width: 50px;
+    height: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(8px);
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.wave {
+    width: 100%;
+}
+/*-------Servis Alanı------*/
+#services{
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 100px;
+}
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+}
+.btn-wrapper{
+    position: relative;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ /*------ Hakkımızda Alanı----*/
+#about-us{
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+
+#about-us ul{
+    margin-left: 20px;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+
+#customers {
+    margin: 100px 0;
+  }
+  .customers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 4px solid #7b1798;
+  }
+  .customers img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .user-details {
+    font-size: 12px;
+    display: inline-block;
+  }
+  
+  /*---------Sosyal Medya----------- */
+  #social-media {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  #social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .social-icons img {
+    width: 60px;
+    transition: 0.5s;
+  }
+  .social-icons a:hover img {
+    transform: translateY(-10px);
+  }
+  /*------ Footer Alanı----*/
+  #footer {
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    color: #fff;
+  }
+  
+  .footer-img {
+    width: 100%;
+  }
+  
+  .footer-box {
+    padding: 20px;
+  }
+  .footer-box img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .footer-box .icons {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+  }
+  .footer-box .form-control {
+    box-shadow: none !important;
+    max-width: 250px;
+    margin-top: 25px;
+  }
+  .footer-box .btn-primary {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+  }
+  hr {
+    background-color: #fff;
+  }
+  
+  .copright {
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
