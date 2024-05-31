@@ -5,6 +5,7 @@ Bu projede bootstrap kullanılarak güzel bir arayüz elde edildi.Full responsiv
 
 
 # Proje Özellikleri
+
 <ul>
               <li>Açılır-Kapanır Navbar</li>
               <li>Responsive Tasarım</li>
@@ -12,6 +13,19 @@ Bu projede bootstrap kullanılarak güzel bir arayüz elde edildi.Full responsiv
               
 </ul>
 
+# Projede Kullanılan Diller ve Araçlar
+
+<ul>
+  <li>Html</li>
+  <li>Css</li>
+  <li> Javascript</li>
+  <li>Visual Studio Code</li>
+ 
+</ul>
+
+# Proje Bağlantı Linki
+
+https://udemig-educations-proje.netlify.app/
 
 
 
