@@ -32,5 +32,7 @@ https://udemig-educations-proje.netlify.app/
 
 
 # Proje Ekran Görünüsü
+![udemig](https://github.com/mehmet-adgzl22/udemig-education/assets/169144147/de529767-454f-43ff-a55c-5baed88bcf3b)
 
-![Ekran görüntüsü](https://github.com/mehmet-adgzl22/udemig-education/assets/169144147/9771c990-b6fd-48df-bdc0-ced778139d78)
+
+
