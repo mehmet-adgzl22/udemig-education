@@ -24,12 +24,7 @@ Bu projede bootstrap kullanılarak güzel bir arayüz elde edildi.Full responsiv
 </ul>
 
 # Proje Bağlantı Linki
-
-https://udemig-educations-proje.netlify.app/
-
-
-
-
+https://udemig-educations-hs11.netlify.app/
 
 # Proje Ekran Görünüsü
 ![udemig](https://github.com/mehmet-adgzl22/udemig-education/assets/169144147/de529767-454f-43ff-a55c-5baed88bcf3b)
